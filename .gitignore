@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Compiled C extensions
+*.so
+
+# Byte-compiled / optimized files
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Test files
+*.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data files
+*.csv
+*.h5
