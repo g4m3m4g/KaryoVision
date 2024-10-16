@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 import os
 
 st.set_page_config(page_title="KaryoVision", layout="centered")
-API_KEY = st.secrets["API_KEY"]
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
 
 CLIENT = InferenceHTTPClient(
     api_url="https://detect.roboflow.com",
