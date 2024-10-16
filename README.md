@@ -8,6 +8,9 @@
 git clone https://github.com/g4m3m4g/KaryoVision.git
 ```
 ```bash
+cd KaryoVision
+```
+```bash
 pip install -r requirements.txt
 ```
 
